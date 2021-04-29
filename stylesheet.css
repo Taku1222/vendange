@@ -1,0 +1,92 @@
+* {
+  box-sizing:border-box;
+}
+
+
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size:25px;
+  float:left;
+  margin-right:30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.container {
+   width:1170px;
+   margin:0 auto;
+ }
+
+
+.bgimg-slider {
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-title {
+    color: #ffffff;
+    font-size: 90px;
+    letter-spacing: 3px;
+    font-family: 'Homemade Apple', cursive;
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    position:absolute;
+    top:150px;
+  }
+@media (max-width: 670px) {
+  .slider-title {
+    position:absolute;
+    top:150px;
+    left:480px;
+  }
+}
+  .ptitle {
+    color: #ffffff;
+    font-size:20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Homemade Apple', cursive;
+    position:absolute;
+    top:350px;
+  }
+
+  .name {
+    margin-left:900px;
+  }
+
+  .link {
+    position:absolute;
+    top:530px;
+    left:360px;
+  }
+
+  .link a {
+    opacity:0.75;
+    transition: all 1.0s;
+  }
+
+  .link a:hover {
+    opacity:1;
+  }

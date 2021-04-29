@@ -1,0 +1,51 @@
+* {
+  box-sizing:border-box;
+}
+
+html, body, h1,p,div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  margin-top: 90px;
+
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 100vw;
+  height: 1500px;
+  background-image: url("./image4.jpg");
+  background-size: cover;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 90px;
+  letter-spacing: 3px;
+  font-family: 'Homemade Apple', cursive;
+  text-shadow: 1px 1px 1px #000;
+}
+@media (max-width:670px) {
+
+  .title {
+    margin:0 350px 0 350px;
+  }
+}
+
+p {
+  font-size:20px;
+  color: #ffffff;
+  letter-spacing: 3px;
+  text-align: center;
+}

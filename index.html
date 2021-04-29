@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendange.com</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Homemade+Apple&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="top">
+    <div class="bgimg-slider">
+      <div class="container">
+        <h1 class="slider-title">Vendange</h1>
+        <p class="ptitle">
+          Buy less. Choose well. Make it last. Quality, not quantity. Everybody’s buying far too many clothes.
+          <br><span class="name">-Vivienne Westwood</span>
+        </p>
+        <ul class="link">
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="https://note.com/mmtakumi">BLOG</a>
+          </li>
+          <li>
+            <a href="#">ONLINE STORE</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="./jquery.bgswitcher.js"></script>
+  <script>
+    jQuery(function($) {
+      $('.bgimg-slider').bgSwitcher({
+        images: ['image1.jpg', 'image2.jpg', 'image3.jpg'],
+        effect: "fade",
+        interval: 6000
+      });
+    });
+  </script>
+
+</body>
+
+</html>
